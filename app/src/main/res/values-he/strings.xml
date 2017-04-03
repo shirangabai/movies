@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">אפליקצית סרטים</string>
+    <string name="auth_failed">נכשל</string>
+    <string name="FINISH">אישור</string>
+    <string name="NAME">שם</string>
+    <string name="EMAIL">מייל</string>
+    <string name="PASSWORD">סיסמה</string>
+
+
+    <string name="log_out">התנתקות</string>
+    <string name="profile">פרופיל</string>
+    <string name="searching">חיפוש</string>
+    <string name="login">התחברות</string>
+    <string name="invalid_email">מייל לא תקין</string>
+    <string name="INVALID_PASSWORD">סיסמה לא מתאימה, צריכה להכיל 8 תווים לפחות</string>
+    <string name="register">הרשמת משתמש חדש</string>
+    <string name="send">שליחה</string>
+    <string name="pleaseWait">אנא המתן</string>
+    <string name="actors">שחקנים</string>
+    <string name="writer">כותב:</string>
+    <string name="director">במאי:</string>
+    <string name="close">סגור</string>
+    <string name="back">חזרה</string>
+    <string name="option">אפשרויות</string>
+    <string name="backup">גיבוי</string>
+    <string name="export_server">יצוא (שרת)</string>
+    <string name="import_last_backup">יבוא (גיבוי אחרון)</string>
+    <string name="settings">הגדרות</string>
+    <string name="delete_all">מחק הכל</string>
+    <string name="open_menu">פתח תפריט</string>
+    <string name="chat">"צ'ט"</string>
+    <string name="search">חיפוש</string>
+    <string name="star">כוכב</string>
+    <string name="favorite">מועדפים</string>
+    <string name="check_internet">אנא בדוק את חיבור האינטרנט</string>
+    <string name="required">נדרש</string>
+    <string name="insert_image">אנא הכנס תמונת פרופיל</string>
+    <string name="create_account_faild">יצירת משתמש נכשלה</string>
+    <string name="email_or_pass_incorect">מייל או סיסמה שגויים</string>
+    <string name="validate_password">וידוי סיסמה</string>
+    <string name="insert_email_and_password">הכנס מייל וסיסמה</string>
+    <string name="continue_btn">המשך</string>
+    <string name="register_successfully">ההרשמה הצליחה</string>
+    <string name="more_details">פרטים נוספים</string>
+    <string name="remember_me">זכור אותי</string>
+    <string name="name">שם</string>
+    <string name="email">מייל</string>
+    <string name="password">סיסמה</string>
+</resources>
+

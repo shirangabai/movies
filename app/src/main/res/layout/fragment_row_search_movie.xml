@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/row_root"
+    android:layoutDirection="ltr"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#dddddd" />
+
+    <android.support.v7.widget.CardView
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/card_image"
+        app:cardCornerRadius="3dp"
+        android:layout_width="70sp"
+        android:layout_height="70sp" >
+
+        <ImageView
+            android:id="@+id/img_poster"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:scaleType="centerCrop" />
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@+id/card_image"
+        android:layout_toLeftOf="@+id/btn_favorite_row"
+        android:layout_toRightOf="@+id/card_image"
+        android:layout_toStartOf="@+id/btn_favorite_row"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lbl_title"
+            android:layout_width="match_parent"
+            android:layout_height="45sp"
+            android:gravity="bottom"
+            android:lines="1"
+            android:paddingLeft="5sp"
+            android:paddingRight="5sp"
+            android:text="Title"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lbl_year"
+            android:layout_width="match_parent"
+            android:layout_height="45sp"
+            android:gravity="top|left"
+            android:lines="1"
+            android:paddingLeft="5sp"
+            android:paddingRight="5sp"
+            android:text="1998"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btn_favorite_row"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#00000000"
+        android:padding="5sp"
+        android:scaleType="fitXY"
+        android:src="@android:drawable/star_big_off" />
+
+</RelativeLayout>
